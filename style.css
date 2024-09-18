@@ -1,0 +1,403 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: segoe UI;
+}
+
+
+
+/* css for header */
+
+
+.header{
+    width:100%;
+    height:60px;
+    background:rgb(62, 117, 172);
+    display:flex;
+    justify-content: center;
+    position:fixed;
+}
+.container{
+    width:80%;
+    height:60px;
+    /* background: yellow; */
+    display:flex;
+}
+.header_container{
+    justify-content: space-between;
+}
+.logo{
+    width:15%;
+    height:60px;
+    /* background: lightblue; */
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    line-height:60px;
+    font-weight: bold; 
+    color:white;
+}
+.nav{
+    width: 45%;
+    height:60px;
+    /* background: green; */
+    display:flex;
+    justify-content: space-evenly;
+}
+.nav_item{
+    width:20%;
+    height:60px;
+    /* background: grey; */
+    font-size:px;
+    text-align:center;
+    line-height: 60px;
+    color:white;
+    cursor:pointer;
+}
+.nav_item:hover{
+    background:rgba(129, 188, 247,0.9);
+    color:black;
+}
+
+
+/* css for banner */
+
+
+.banner{
+    width:100%;
+    height:95vh;
+    /* background: lightpink; */
+    background-image:url('p1.jpg'); 
+}
+.over{
+    width:100%;
+    height:95vh;
+    background:rgba(0,0,0,0.3);
+    display:flex;
+    align-items: center; 
+}
+.banner_text{
+    width:36%;
+    height:250px;
+    padding:20px;
+    border-radius: 3%;
+    background:rgba(154, 197, 239,0.6);
+    display:flex;
+    align-items: center;
+}
+.text{
+    /* background: lightgreen; */
+    width:100%;
+     color:rgb(16, 15, 15);
+     font-weight: bold;
+   
+}
+.btn{
+    padding-left:15px;  
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:7px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background: rgb(184, 211, 238);
+   color:rgb(15, 15, 15);
+   font-size:20px;
+   margin-top:45px;
+   margin-left:80%;
+   cursor:pointer;
+   transition: .3;
+   border-radius: 10px;
+}
+
+
+
+/* css of servies */
+
+
+.service_container{
+    width:100%;
+    background: rgba(129, 188, 247,0.3);  
+}
+.title{
+    padding-top:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.services{
+    width:40%;
+    /* background: rgb(87, 45, 45); */
+    margin:60px;
+    display: inline-flex; 
+}
+
+.service{
+   
+    width:100%;
+    height:300px;
+    /* background: lightcoral; */
+    display:flex;   
+}
+.service_img{
+    width:40%;
+    height:300px;
+    /* background: red; */
+}
+.image{
+    width:100%;
+    height:300px;
+}
+.service_detail{
+    width:60%;
+    height:300px;
+    background: rgba(129, 188, 247,0.4);
+}
+.head{
+    padding:15px;
+}
+.service_btn{
+    display:flex;
+   justify-content:end;
+   margin-top:20px;
+   margin-right:40px;
+}
+.service_btn button{
+    font-size: 15px;
+    padding:10px;   
+    border-radius: 10px; 
+    outline:none;
+    cursor:pointer;
+}
+
+
+/* css for About us */
+
+
+.about{
+    padding:50px;
+    background:rgba(129, 188, 247,0.3);  
+}
+.about_container{
+    margin-top:20px;
+    /* background: green; */
+    line-height: 25px;
+    font-size: 17px;
+    text-indent: 40px;
+}
+.starting_word{
+    font-size: 30px;
+    color:rgb(104, 103, 103);
+    /* font-weight: bold; */
+}
+
+
+/* css for highligh */
+
+
+.highlight{
+    padding-top:60px;
+    padding-bottom:60px;
+    width:100%;
+    background: rgba(129, 188, 247,0.3);
+    
+}
+.highlight_container{
+    display:flex;
+    justify-content: space-around;
+}
+.high_ele{
+    
+    width:20%;
+    height:200px;
+    background: rgba(129, 188, 247,0.4);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.high_title{
+    font-size: 45px;
+    font-family:segoe UI;
+}
+.disc{
+    font-size:25px;
+}
+
+/* css for quote section */
+
+.quote{
+    padding-top:35px;
+    padding-bottom:35px;
+    /* background: rgba(129, 188, 247,0.3);   */
+    
+    width:100%;
+}
+.quote_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.quote_heading{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: 300; */
+    margin-bottom:25px;
+}
+.quote_btn{
+    padding:5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    outline:none;
+    background: #f1f0f0;
+}
+
+
+
+/* css for portfolio */
+
+
+
+.event{
+   
+    /* padding-top:30px; */
+    /* padding-bottom:30px; */
+    width:100%;
+    /* background:rgb(156, 159, 156);   */
+}
+.event_header{
+    /* margin-bottom:10px; */
+    padding-top:40px;
+    padding-bottom:40px;
+    background: rgba(5, 91, 171, 0.4);
+    font-family: sans-serif;
+}
+.event_container{
+  
+    display:flex;
+    flex-wrap: wrap;
+    /* padding-top:25px;  */
+    /* padding-bottom: 25px; */
+}
+.project{
+        width:25%;
+        height:300px;
+        /* background: yellow;  */
+        display:flex;       
+}
+.project_1{
+    background-image:url(https://images.pexels.com/photos/18842965/pexels-photo-18842965/free-photo-of-hikers-with-dogs-and-backpacks-preparing-for-a-trip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover;
+}
+.project_2{
+    background-image: url(https://images.pexels.com/photos/7169001/pexels-photo-7169001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;   
+}
+.project_3{
+    background-image: url(https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.project_4{
+    background-image: url(https://images.pexels.com/photos/6660783/pexels-photo-6660783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.project_5{
+    background-image: url(https://images.pexels.com/photos/1080883/pexels-photo-1080883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.project_6{
+   background-image: url(https://images.pexels.com/photos/1370298/pexels-photo-1370298.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+}
+.project_7{
+    background-image: url(https://images.pexels.com/photos/2422583/pexels-photo-2422583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    
+}
+.project_8{
+    background-image: url(https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+}
+.event_title{
+    width:100%;
+    height:150px;
+    color:rgb(249, 246, 246);
+    background: rgba(125, 149, 243, 0.7);
+    text-indent:30px;
+    line-height: 150px;
+    cursor:pointer;
+    transition: .4s;
+}
+.event_title:hover{
+    height:300px;
+}
+
+
+
+/* css for footer */
+
+
+.footer{
+    /* padding-top:10px; */
+    /* padding-bottom:10px; */
+    background: rgb(129, 188, 247);
+}
+.footer_container{
+    display:flex;
+    padding:25px;
+}
+.footer_child{
+    width:25%;
+    height:200px;
+    /* background: rgb(129, 188, 247); */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+li{
+    list-style: none;
+    color:white;
+    margin-bottom: 6px;
+}
+.footer_logo{
+  
+  font-size: 40px;
+  line-height: 200px;
+  color:white;
+}
+.first{
+   font-size: 20px;
+}
+.footer_social_logo{
+    width:100%;
+    padding:20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.social{
+    width:21%;
+    height:40px;
+    /* background: white; */
+    justify-content: space-evenly;
+    background-size: cover;
+}
+.social_1{
+    width:40px;
+    height:40px;
+    background-image: url(facebook.png);
+}
+.social_2{
+    width:40px;
+    height:40px;
+    background-image: url(instagram.png);
+}
+.social_3{
+    width:40px;
+    height:40px;
+    background-image: url(gmail.png);
+}
+.social_4{
+    width:40px;
+    height:40px;
+    background-image: url(linkedin.png);
+}
